@@ -45,7 +45,7 @@ const App = ()=> {
 return (
     <div className="app">
    <div className="app__body">
-     <Counter />
+     <UseState />
 </div>
     </div>
       
