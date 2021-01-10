@@ -59,3 +59,27 @@ export default App;
 
 export default App; 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#useEffect() and useRef()
+
+import React from 'react';
+import './App.css';
+import Counter from  "./Counter"
+
+const App = ()=> {
+return (
+    <div className="app">
+   <div className="app__body">
+     <UseState />
+</div>
+    </div>
+      
+    );
+  
+}
+
+export default App; 
+
+
+
+export default App; 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
