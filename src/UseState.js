@@ -5,7 +5,7 @@ function Counter() {
  const [count , setCount] =useState(0);
 
   const  handleDecrement = ()=>{
-      if (count==0) return
+      if (count===0) return
        setCount(prevCount=> prevCount-1);
   }
   const  handleIncrement = ()=>{
