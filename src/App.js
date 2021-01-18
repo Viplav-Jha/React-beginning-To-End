@@ -34,6 +34,7 @@ return (
   
 }
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #useState() with functional component 
 
@@ -83,3 +84,32 @@ export default App;
 
 export default App; 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// React-Router-dom
+    
+ import React from 'react';
+import { Route, Router, Switch } from 'react-router-dom';
+import About from './About';
+import './App.css';
+import Contact from './Contact';
+import Counter from  "./Counter";
+import Error from './Error';
+
+
+const App = ()=> {
+return (
+    
+    <div className="app__body">
+      <Switch>
+      <Route exact path='/' component={Contact} />
+      <Route path='/about' component={About} />
+      <Route component={Error} />
+      </Switch>
+
+   </div>
+     
+      
+    );
+  
+}
+
+export default App; 
