@@ -99,6 +99,7 @@ const App = ()=> {
 return (
     
     <div className="app__body">
+    <Menu />
       <Switch>
       <Route exact path='/' component={Contact} />
       <Route path='/about' component={About} />
