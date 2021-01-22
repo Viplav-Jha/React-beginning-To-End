@@ -114,3 +114,34 @@ return (
 }
 
 export default App; 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//For making Accordion
+import React, {useState} from 'react';
+import './App.css';
+import "./styles.css";
+import Accordion from './Accordion';
+
+const App = ()=> {
+   const [active, setActive]= useState('')
+
+return (
+    <div className="App">
+    <Accordion title="Title1" active={active} setActive={setActive}/>
+    <Accordion title="Title2" active={active} setActive={setActive}/>
+    <Accordion title="Title3" active={active} setActive={setActive}/>
+    <Accordion title='Title4' active={active} setActive={setActive}/>
+
+   
+
+   </div>
+
+//   {/* <div className="app__body">
+// //      <Counter />
+// // </div> */}
+     
+      
+    );
+  
+}
+
+export default App; 
