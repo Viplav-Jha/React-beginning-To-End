@@ -5,8 +5,7 @@ function Components() {
         <div>
             <h1>Hello Viplav</h1>
         </div>
-    );
-}
+    ); }
 
 export default Components; 
 
