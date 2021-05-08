@@ -56,3 +56,14 @@ class App extends React.Component
     
   }
 }
+---------------------------------------------------------------
+// Header.js
+
+import React from 'react';
+ 
+ export const Header =()=> {
+
+    return  <h1> Hello, functional components</h1>
+    
+}
+// export default Header();
