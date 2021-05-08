@@ -1,0 +1,21 @@
+import React from 'react';
+import './App.css';
+const newElement= React.Component('h2',{className:'newElement'},'Hello H2 tag') //without JSX
+
+
+
+  // With JSX
+ const test =()=>{
+   alert("Hello viplav");
+ }
+ 
+  function App() {
+    return (
+    <div className="App">
+      <h1> Hello {newElement}</h1>
+      {newElement}
+     <button onClick={test} > </button>
+    </div>
+    );
+  }
+export default App;
