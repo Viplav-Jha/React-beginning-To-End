@@ -80,3 +80,32 @@ const name ="John";
 const element = <h1>Hello , {name} </h1>
 
 ReactDOM.render(element, document.getElementById("root");)
+---------------------------------------------------------------------------------
+ Embed the result of calling a JavaScript function, formatName(user), into an <h1> element.
+ 
+ function fromateName(user){
+ return  user.firstName '+ ' user.lastName 
+ }
+ 
+ const user ={
+ firstName="viplav",
+ lastName="Jha"
+ }
+ const element (
+ <h1> Hello , {formatName(user)} </h1>
+ );
+ 
+ ReactDOM.render ( element , document.getElementID("root");
+ )
+ 
+JSX using with IF/else
+------------------------------------------------------------
+ function getGreeting(user){
+  if(user)
+    {
+      <h1> Hello ,{formatName(user)} </h1>
+    }
+  <h1> Hello Stranger. </h1>
+}
+
+ 
