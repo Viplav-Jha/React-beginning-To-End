@@ -64,4 +64,4 @@ const Covid=()=> {
     )
 }
 
-export default Covid
+export default Covid;
