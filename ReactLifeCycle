@@ -27,4 +27,4 @@ export class LifeCyleA extends Component {
     }
 }
 
-export default LifeCyleA
+export default LifeCyleA;
