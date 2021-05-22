@@ -1,0 +1,30 @@
+import React, { Component } from 'react';
+import LifeCyleB from './LifeCycleB';
+
+export class LifeCyleA extends Component {
+    constructor(props){
+        super(props)
+        this.state ={
+            name:"Ajay"
+        }
+       
+    console.log("LifeCyleA: constructor");
+    }
+    static getDerivedStateFromProps(props,state) {
+        console.log("LifeCyleA: getDerviedStateFromProps");
+    }
+    componentDidMount(){
+        console.log("LifeCyleA: compoundDidMount");
+    }
+    render() {
+        console.log("LifeCycleA : render")
+        return (
+            <div>
+              LifeCycleA  
+              <LifeCyleB ></LifeCyleB>      
+            </div>
+        )
+    }
+}
+
+export default LifeCyleA
