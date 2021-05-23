@@ -19,7 +19,7 @@ export class LifeCyleB extends Component {
         console.log("LifeCycleB : render")
         return (
             <div>
-             LifeCycleB        
+             LifeCycleB !!       
             </div>
         )
     }
