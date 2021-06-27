@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 const newElement= React.Component('h2',{className:'newElement'},'Hello H2 tag') //without JSX
 
-
-
-  // With JSX
+ // With JSX
  const test =()=>{
    alert("Hello viplav");
  }
