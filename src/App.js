@@ -6,7 +6,6 @@ return (
     <div className="App">
    < Components />
     </div>
-      
     );
   }
 export default App;
